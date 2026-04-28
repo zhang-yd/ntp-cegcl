@@ -53,8 +53,6 @@ def set_params():
     ## dataset type
     parser.add_argument('--big', type=bool, default=False)
     parser.add_argument('--homogeneous', type=bool, default=True)
-    parser.add_argument('--rand_split_class', type=bool, default=True)
-    parser.add_argument('--rand_split', type=bool, default=True)
 
     #####################################
     args, _ = parser.parse_known_args()

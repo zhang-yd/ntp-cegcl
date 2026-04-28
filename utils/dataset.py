@@ -10,7 +10,7 @@ from torch_geometric.datasets import Planetoid
 
 
 from .WikipedaNetwork import WikipediaNetwork
-from .data_utils import get_partition, get_partition_big
+from .data_utils import sym_adj, get_partition, get_partition_big
 
 
 class Dataset(object):

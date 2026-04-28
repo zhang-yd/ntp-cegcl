@@ -13,7 +13,7 @@ from datetime import datetime
 from modules.logreg import LogReg
 
 from params_utils import set_params
-from model_new import MyGCL
+from model import MyGCL
 from utils.dataset import load_dataset, load_large_dataset 
 from utils.data_utils import eval_acc, class_rand_splits, load_fixed_splits, rand_train_test_idx 
 
